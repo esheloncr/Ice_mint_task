@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block tittle %}Home{% endblock tittle %}
+{% block content %}
+<textarea name="Parsing_status" id="" cols="30" rows="30">
+{{ parsing_status }}
+</textarea>
+<textarea name="" id="" cols="30" rows="30">
+    {{ parsing_info }}
+</textarea>
+<input type="button" name="Удалить"><a href="/">Удалить</a>
+{% endblock content %}
